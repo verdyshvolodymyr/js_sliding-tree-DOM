@@ -1,7 +1,7 @@
 'use strict';
 
 document.addEventListener('DOMContentLoaded', function () {
-  const listItems = document.querySelectorAll('li:has(ul)');
+  const listItems = document.querySelectorAll('li');
 
   listItems.forEach((li) => {
     const span = document.createElement('span');
